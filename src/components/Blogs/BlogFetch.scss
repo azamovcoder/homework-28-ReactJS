@@ -1,0 +1,116 @@
+.create__form {
+  margin-top: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px;
+  border-radius: 10px;
+  background: #ddd;
+  input {
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  button {
+    padding: 5px;
+    background: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+}
+
+.product {
+  &__cards {
+    padding: 50px 0;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__card {
+    background: #ddd;
+    border-radius: 10px;
+    width: 30%;
+    img {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+    }
+    &__info {
+      display: grid;
+      grid-template-columns: repeat(2, 50%);
+      gap: 10px;
+    }
+    &__buttons {
+      display: flex;
+      padding-top: 10px;
+      justify-content: space-between;
+      &__delete {
+        background: red;
+        color: #fff;
+
+        &:hover {
+          color: red;
+          border: 1px solid red;
+          background: #fff;
+        }
+      }
+      &__edit {
+        background: dodgerblue;
+        color: #fff;
+
+        &:hover {
+          color: dodgerblue;
+          border: 1px solid dodgerblue;
+          background: #fff;
+        }
+      }
+      button {
+        transition: 0.4s;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 18px;
+      }
+    }
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.edit__form {
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 20px;
+  background: #ddd;
+  padding: 20px;
+  input {
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  button {
+    padding: 5px;
+    background: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  &__close {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": "d4b2",
+      "title": "co",
+      "img": "https://www.coca-colacompany.com/content/dam/company/us/en/sustainability/in-our-products/coca-cola-portfolio-sparkling-package-desktop-516x449.jpeg",
+      "category": "234567",
+      "price": "12000",
+      "count": "10"
+    },
+    {
+      "id": "f195",
+      "title": "ervnr",
+      "img": "https://www.coca-colacompany.com/content/dam/company/us/en/sustainability/in-our-products/coca-cola-portfolio-sparkling-package-desktop-516x449.jpeg",
+      "category": "234567",
+      "price": "12000",
+      "count": "10"
+    },
+    {
+      "id": "1416",
+      "title": "werg",
+      "img": "https://www.coca-colacompany.com/content/dam/company/us/en/sustainability/in-our-products/coca-cola-portfolio-sparkling-package-desktop-516x449.jpeg",
+      "category": "It",
+      "price": "12000",
+      "count": "234"
+    },
+    {
+      "id": "bef8",
+      "title": "wert",
+      "img": "https://www.coca-colacompany.com/content/dam/company/us/en/sustainability/in-our-products/coca-cola-portfolio-sparkling-package-desktop-516x449.jpeg",
+      "category": "It",
+      "price": "1234",
+      "count": "10"
+    }
+  ]
+}
